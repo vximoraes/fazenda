@@ -16,20 +16,33 @@ body {
 }
 
 header {
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 512px;
     background: url(../images/image\ 9.png) no-repeat center/cover;
-    scale: 101%;
+    background-size: 120%;
     margin-bottom: 50px;
 }
 
-.image-header {
-    width: 310px;
-    object-fit: contain;
-    position: relative;
+.header-icon {
+    width: 64px;
+    height: 69px;
+    margin-bottom: 350px;
+}
+
+.header-texto {
+    position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #1b44369f;
+    padding: 10px 30px;
+    text-align: center;
 }
 
 nav {
